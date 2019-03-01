@@ -15,7 +15,8 @@ COLOURlover is an online crowdsourcing platform which lets random users share an
 
 URL: [https://open.spotify.com/](https://open.spotify.com/)
 
-Spotify is one of the most popular music websites. It crawls songs' title and artists from playlists. To utilize this crawler, you are required to specify a list of URLs which you wish to crawl.<br>
+Spotify is one of the most popular music websites. This webcrawler collects titles and artists of a given playlists. To utilize this crawler, you are required to specify a list of URLs which you wish to crawl.<br>
+
 
 All crawler in this repository is only for academic research purposes.
 
