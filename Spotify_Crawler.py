@@ -44,7 +44,7 @@ keys = result[0].keys()
 
 driver.quit()
 
-with open('Most_Loved.csv', 'w', encoding="utf-8") as f: #store the data as a txt file.
+with open('Most_Loved.csv', 'w', encoding="utf-8") as f: #store the data as a csv file.
     dict_writer = csv.DictWriter(f, delimiter=',', lineterminator='\n', fieldnames=keys)
     dict_writer.writeheader()
     dict_writer.writerows(result)
