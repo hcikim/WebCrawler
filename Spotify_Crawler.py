@@ -14,14 +14,13 @@ def music_info(div):
 	}
 
 url = ['https://open.spotify.com/playlist/37i9dQZF1DX4pAtJteyweQ','https://open.spotify.com/playlist/37i9dQZF1DX3Z99viCDp7Q',
-		'https://open.spotify.com/playlist/37i9dQZF1DWX3387IZmjNa','https://open.spotify.com/playlist/37i9dQZF1DX09mi3a4Zmox',
-		'https://open.spotify.com/playlist/37i9dQZF1DX8WMG8VPSOJC','https://open.spotify.com/playlist/37i9dQZF1DX6mvEU1S6INL',
-		'https://open.spotify.com/playlist/37i9dQZF1DWSlwBojgQEcN','https://open.spotify.com/playlist/37i9dQZF1DWWCKk94npRDB','https://open.spotify.com/playlist/37i9dQZF1DWUoGbRYcteyC',
+		'https://open.spotify.com/playlist/37i9dQZF1DWX3387IZmjNa','https://open.spotify.com/playlist/37i9dQZF1DX8WMG8VPSOJC',
+		'https://open.spotify.com/playlist/37i9dQZF1DX6mvEU1S6INL','https://open.spotify.com/playlist/3wI0prya1veVHKQOtLbmxB',
+		'https://open.spotify.com/playlist/37i9dQZF1DWSlwBojgQEcN','https://open.spotify.com/playlist/37i9dQZF1DWWCKk94npRDB',
 		'https://open.spotify.com/playlist/37i9dQZF1DWVGy1YP1ojM5','https://open.spotify.com/playlist/37i9dQZF1DWSRc3WJklgBs',
 		'https://open.spotify.com/playlist/37i9dQZF1DX4adj7PFEBwf','https://open.spotify.com/playlist/37i9dQZF1DX50QitC6Oqtn',
 		'https://open.spotify.com/playlist/37i9dQZF1DX0QKpU3cGsyb','https://open.spotify.com/playlist/37i9dQZF1DX7rOY2tZUw1k',
-		'https://open.spotify.com/playlist/37i9dQZF1DX2Ma8k80RiMN','https://open.spotify.com/playlist/4QuJ2DbcTe7R8lzqfNXz7v',
-		'https://open.spotify.com/playlist/3wI0prya1veVHKQOtLbmxB']
+		'https://open.spotify.com/playlist/37i9dQZF1DX2Ma8k80RiMN','https://open.spotify.com/playlist/4QuJ2DbcTe7R8lzqfNXz7v']
 
 driver = webdriver.Chrome('/Users/tommy/chromedriver') #direct your chromedriver path here
 driver.implicitly_wait(3)
